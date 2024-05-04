@@ -28,4 +28,32 @@ console.log(colorsArray);
 console.log("sulttan");
 Number.isInteger(578);
 console.log(Number.isInteger);
+// The invocation above will return: true
+var alphas;
+alphas = ["1", "2", "3", "4"];
+console.log(alphas[0]);
+console.log(alphas[1]);
+var nums = [1, 2, 3, 3];
+console.log(nums[0]);
+console.log(nums[1]);
+console.log(nums[2]);
+console.log(nums[3]);
+var arr_names = new Array(4);
+for (var i = 0; i < arr_names.length; i++) {
+    arr_names[i] = i * 2;
+    console.log(arr_names[i]);
+}
+var names1 = new Array("Mary", "Tom", "Jack", "Jill");
+for (var i = 0; i < names.length; i++) {
+    console.log(names1[i]);
+}
+var arr = [12, 13];
+var [x, y] = arr;
+console.log(x);
+console.log(y);
+var j;
+var nums = [1001, 1002, 1003, 1004];
+for (j in nums) {
+    console.log(nums[j]);
+}
 export {};
